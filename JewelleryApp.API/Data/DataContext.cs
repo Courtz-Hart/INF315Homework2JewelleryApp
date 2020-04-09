@@ -12,5 +12,7 @@ namespace JewelleryApp.API.Data
         }
 
         public DbSet<Value> Values { get; set; } //Values names references the table name that gets craeted when we scaffolded the database
+
+        public DbSet<User> Users { get; set; }
     }
 }
